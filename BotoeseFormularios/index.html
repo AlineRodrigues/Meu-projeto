@@ -1,0 +1,32 @@
+<!DOCTYPE html> <!--Define o documento HTML5-->
+<html lang="pt-BR"> <!--Define a linguagem-->
+
+<head><!--Cabeçalho - falar sobre a página, titulo, links para folhas de estilo, config de caracteres-->
+    <meta charset="UTF-8"><!--Usamos para definir o conjunto de caracteres que essa página deve usar-->
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <!--Viewport área visivel da página no Ecrã, é para permitir que o site seja responsivo-->
+    <title> Exemplo de Botões e Formulários </title><!--Título da janela do navegador-->
+    <link> rel="stylesheet" href="style.css">
+    <!--Link que vai vincular o arquivo esterno CSS / Esse arquivo style.css é o que criamos após esse-->
+</head>
+
+<body> <!--Corpo do documento, onde colocamos o conteúdo visível da página-->
+    <div class="container"> <!--Divisão principal da página, com a classe container para estilização-->
+        <h2>Fale Conosco</h2>
+        <form action="#"></form> <!--Início do formulário, o atributo action define para onde os dados serão enviados-->
+        <div class="form-group"> <!--Divisão para agrupar os elementos do formulário-->
+            <label for="nome">Nome:</label>></label>
+            <!--Rótulo para o campo de nome, o atributo for associa o rótulo ao campo de entrada-->
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            <!--Campo de entrada de texto para o nome, com id e name para identificação-->
+        </div>
+        <div class="form-group"> <!--Divisão para agrupar os elementos do formulário-->
+            <label for="email">Email:</label> <!--Rótulo para o campo de email-->
+            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+            <!--Campo de entrada de email, com validação automática-->
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
